@@ -1,0 +1,59 @@
+.nav{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top:0;
+    align-items: center;
+    display: flex;
+    font-family: 'Langar', cursive;
+    z-index: 999;
+}
+
+.logos,.search{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* WORKING ON LEFT ICONS */
+.Icons{
+    margin-right: 15px;
+    cursor: pointer;
+    color: #333;
+    font-size: 30px;
+    opacity: 0.9;
+}
+
+/* WORKING ON MENUS */
+.menuList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.menuListItems{
+    margin-right: 15px;
+    font-weight: 10;
+    font-size: 22px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.menus{
+    flex: 6;
+}
+/* SEACRH ICON AND IMAGE WORK */
+.imageInSearch{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.SearchIcon{
+    margin-left: 15px;
+
+}

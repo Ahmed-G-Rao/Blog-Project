@@ -1,0 +1,9 @@
+.posts{
+    flex: 9 ;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+/* 43:12  work till 36 */
